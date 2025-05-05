@@ -14,19 +14,7 @@ This project demonstrates a servlet-based file upload system integrated with a *
 cs370_s25fileuploadServlet-rahman-shiwlee.war
 ```
 
----
 
-##  Features Implemented
-
-| Feature Level | Description                                                                 | Status |
-|---------------|-----------------------------------------------------------------------------|--------|
-| Level 1       | Deployable WAR with correct naming convention                               | ✅     |
-| Level 2a      | File content stored remotely in a MySQL database                            | ✅     |
-| Level 2b      | Upload size restriction: Reject files > 50MB using `@MultipartConfig`       | ✅     |
-| Level 3       | Supports SQL-based inspection like `OCTET_LENGTH(file_content)`             | ✅     |
-| Level 4       | End-to-end remote integration via Apache reverse proxy on EC2               | ✅     |
-
----
 
 ## Technologies Used
 
